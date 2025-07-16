@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+/* ↓ override the global UI background: */
+:root {
+  /* direct hex: */
+  --ui-bg: #f5f0e1;
+  /* if you want a slightly darker elevated surface: */
+  --ui-bg-elevated: #e0d8c4;
+}
+
+/* optional: override dark‐mode surfaces */
+.dark {
+  --ui-bg: #1a1a1a;
+  --ui-bg-elevated: #252525;
+}
